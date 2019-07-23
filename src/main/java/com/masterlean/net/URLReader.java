@@ -11,8 +11,6 @@ import java.io.*;
 import org.json.*;
 
 public class URLReader {
-    
-    generating compile error for test
 	
     public static String read(String addr)  {
     try {
