@@ -40,22 +40,7 @@
             
             
 		</repository>
-        
-         <servers>
-            <server>
-              <id>InternalSnapshots</id>
-              <username>admin</username>
-              <password>admin123</password>
-            </server>
-            <server>
-              <id>InternalReleases</id>
-              <username>admin</username>
-              <password>admin123</password>
-            </server>
-        </servers>
-
-        
-        
+                
 	</distributionManagement>	
 	
 	
@@ -139,7 +124,9 @@
 		<developerConnection>scm:git:git@github.com:amirmendelson/CounterWebApp.git</developerConnection>
     </scm>    
 	
-	
+
+    
+    
 	<build>
 		<finalName>CounterWebApp</finalName>
  
