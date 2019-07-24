@@ -38,12 +38,25 @@
 			<url>http://192.9.17.81:8081/repository/maven-releases/</url>
             
             
-
             
 		</repository>
 	</distributionManagement>	
 	
 	
+    
+    <servers>
+        <server>
+          <id>InternalSnapshots</id>
+          <username>admin</username>
+          <password>admin123</password>
+        </server>
+        <server>
+          <id>InternalReleases</id>
+          <username>admin</username>
+          <password>admin123</password>
+        </server>
+   </servers>
+
 	
 	
 
