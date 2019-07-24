@@ -1,4 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.amd</groupId>
 	<artifactId>CounterWebApp</artifactId>
@@ -22,12 +22,19 @@
 		<snapshotRepository>
 			<id>InternalSnapshots</id>
 			<name>Internal Snapshots</name>
-			<url>http://35.188.197.206:8081/nexus/content/repositories/snapshots/</url>
+			<!--
+            <url>http://35.188.197.206:8081/nexus/content/repositories/snapshots/</url>
+            --> 
+            <url>http://192.9.17.81:8081/nexus/content/repositories/snapshots/</url>
+            
 		</snapshotRepository>
 		<repository>
 			<id>InternalReleases</id>
 			<name>Internal Releases</name>
+            <!--
 			<url>http://35.188.197.206:8081/nexus/content/repositories/releases/</url>
+            -->
+			<url>http://192.9.17.81:8081/nexus/content/repositories/releases/</url>
 		</repository>
 	</distributionManagement>	
 	
