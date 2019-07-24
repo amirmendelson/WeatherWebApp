@@ -25,16 +25,17 @@
 			<!--
             <url>http://35.188.197.206:8081/nexus/content/repositories/snapshots/</url>
             --> 
-            <url>http://192.9.17.81:8081/nexus/content/repositories/snapshots/</url>
+            <url>http://192.9.17.81:8081/repositories/snapshots/</url>
             
 		</snapshotRepository>
+        
 		<repository>
 			<id>InternalReleases</id>
 			<name>Internal Releases</name>
             <!--
 			<url>http://35.188.197.206:8081/nexus/content/repositories/releases/</url>
             -->
-			<url>http://192.9.17.81:8081/nexus/content/repositories/releases/</url>
+			<url>http://192.9.17.81:8081/repositories/releases/</url>
 		</repository>
 	</distributionManagement>	
 	
