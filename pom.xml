@@ -40,22 +40,26 @@
             
             
 		</repository>
+        
+         <servers>
+            <server>
+              <id>InternalSnapshots</id>
+              <username>admin</username>
+              <password>admin123</password>
+            </server>
+            <server>
+              <id>InternalReleases</id>
+              <username>admin</username>
+              <password>admin123</password>
+            </server>
+        </servers>
+
+        
+        
 	</distributionManagement>	
 	
 	
     
-    <servers>
-        <server>
-          <id>InternalSnapshots</id>
-          <username>admin</username>
-          <password>admin123</password>
-        </server>
-        <server>
-          <id>InternalReleases</id>
-          <username>admin</username>
-          <password>admin123</password>
-        </server>
-   </servers>
 
 	
 	
