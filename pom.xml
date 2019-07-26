@@ -29,7 +29,7 @@
 
             --> 
             
-            <url>http://localhost:8081/repositories/snapshots/</url>
+            <url>http://localhost:8081/repositories/snapshots/  not used </url>
             
 		</snapshotRepository>
         
@@ -41,7 +41,7 @@
 			<url>http://192.9.17.81:8081/repository/maven-releases/</url>
             -->
             
-            <url>http://localhost:8081/repositories/snapshots/</url>
+            <url>http://localhost:8081/repositories/maven-releases/</url>
             
             
 		</repository>
