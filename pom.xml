@@ -125,6 +125,15 @@
 
 		<plugins>
 		
+        
+            <plugin>
+                <artifactId>maven-scm-plugin</artifactId>
+                <version>1.9.4</version>
+                <configuration>
+                    <tag>${project.artifactId}-${project.version}</tag>
+                </configuration>
+            </plugin>
+        
 			
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
