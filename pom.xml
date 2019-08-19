@@ -122,16 +122,16 @@
 
 
     <scm>
-		<url>scm:git:git@github.com:amirmendelson/CounterWebApp.git</url>
-		<connection>scm:git:git@github.com:amirmendelson/CounterWebApp.git</connection>
-		<developerConnection>scm:git:git@github.com:amirmendelson/CounterWebApp.git</developerConnection>
+		<url>scm:git:git@github.com:amirmendelson/WeatherWebApp.git</url>
+		<connection>scm:git:git@github.com:amirmendelson/WeatherWebApp.git</connection>
+		<developerConnection>scm:git:git@github.com:amirmendelson/WeatherWebApp.git</developerConnection>
     </scm>    
 	
 
     
     
 	<build>
-		<finalName>CounterWebApp</finalName>
+		<finalName>WeatherWebApp</finalName>
  
 
 		<plugins>
@@ -157,7 +157,7 @@
 				    <url>http://localhost:8080/manager/text</url>
 					
 					<server>TomcatServer</server>
-					<path>/CounterWebApp</path> 
+					<path>/WeatherWebApp</path> 
   
 
                     <!--
