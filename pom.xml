@@ -3,7 +3,7 @@
 	
     
     <groupId>com.amd</groupId>
-	<artifactId>CounterWebApp</artifactId>
+	<artifactId>WeatherWebApp</artifactId>
 	<packaging>war</packaging>
     <version>1.0.434-SNAPSHOT</version>  
 	
@@ -14,7 +14,7 @@
 
 
 	 
-	<name>CounterWebApp Maven Webapp</name>
+	<name>WeatherWebApp Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<jdk.version>1.7</jdk.version>
