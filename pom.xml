@@ -23,7 +23,7 @@
 		<junit.version>4.11</junit.version>
 		<logback.version>1.0.13</logback.version>
 		<jcl-over-slf4j.version>1.7.5</jcl-over-slf4j.version>
-        <!-- aaa  <project.scm.id>amirmendelson</project.scm.id>   -->      
+        <project.scm.id>amirmendelson</project.scm.id>       
 	</properties>
 	
 
