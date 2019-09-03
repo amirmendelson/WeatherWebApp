@@ -103,7 +103,6 @@
 		<developerConnection>scm:git:git@github.com:amirmendelson/WeatherWebApp.git</developerConnection>     
     </scm>    
     --> 
-       <connection>scm:git:http://myserver:8081/r/gitauthtest.git</connection>
 
     <scm>   
 		<url>scm:git:https://github.com/amirmendelson/WeatherWebApp.git</url>
