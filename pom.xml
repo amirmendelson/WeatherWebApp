@@ -24,6 +24,10 @@
 		<junit.version>4.11</junit.version>
 		<logback.version>1.0.13</logback.version>
 		<jcl-over-slf4j.version>1.7.5</jcl-over-slf4j.version>
+        
+        
+        <project.scm.id>scm-server</project.scm.id>
+ 
 	</properties>
 	
 
@@ -95,6 +99,7 @@
 		</dependency>
 	</dependencies>
 
+    <!-- C:\docker_data\jenkins_home\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.6.1\conf\settings.xml --> 
 
     <scm>
 		<url>scm:git:git@github.com:amirmendelson/WeatherWebApp.git</url>
@@ -103,6 +108,7 @@
     </scm>    
 	
 
+    
     
     
 	<build>
