@@ -103,9 +103,8 @@
 		<developerConnection>scm:git:git@github.com:amirmendelson/WeatherWebApp.git</developerConnection>
         <tag>WeatherWebApp-1.0.440</tag>
     </scm>    
-	
 
-    
+
     
     
 	<build>
@@ -141,7 +140,6 @@
                   <password>busta2000</password>
                 </configuration>
               </plugin>
-            --> 
 
 
 
