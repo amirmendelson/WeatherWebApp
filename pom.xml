@@ -132,7 +132,21 @@
             </plugin>
             --> 
         
-			
+		
+              <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-scm-plugin</artifactId>
+                <version>1.11.2</version>
+                <configuration>
+                  <username>amirmendelson</username>
+                  <password>busta2000</password>
+                </configuration>
+              </plugin>
+
+
+
+
+        
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
