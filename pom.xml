@@ -101,8 +101,8 @@
 		<url>scm:git:git@github.com:amirmendelson/WeatherWebApp.git</url>
 		<connection>scm:git:git@github.com:amirmendelson/WeatherWebApp.git</connection>
 		<developerConnection>scm:git:git@github.com:amirmendelson/WeatherWebApp.git</developerConnection>
-      <tag>WeatherWebApp-1.0.437</tag>
-  </scm>    
+        <tag>WeatherWebApp-1.0.437</tag>
+    </scm>    
 	
 
     
