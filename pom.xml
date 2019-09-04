@@ -108,8 +108,7 @@
 		<url>scm:git:https://github.com/amirmendelson/WeatherWebApp.git</url>
 		<connection>scm:git:https://github.com/amirmendelson/WeatherWebApp.git</connection>
 		<developerConnection>scm:git:https://github.com/amirmendelson/WeatherWebApp.git</developerConnection>     
-      <tag>WeatherWebApp-1.0.446</tag>
-  </scm>    
+   </scm>    
 
     <distributionManagement>
         <snapshotRepository>
