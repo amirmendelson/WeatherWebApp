@@ -5,7 +5,7 @@
     <groupId>com.amd</groupId>
 	<artifactId>WeatherWebApp</artifactId>
 	<packaging>war</packaging>
-    <version>1.0.22-SNAPSHOT</version>  
+    <version>1.0.21</version>  
 	                  
 	<!-- 
 	<version>1.0.0</version>
@@ -109,7 +109,7 @@
 		<url>scm:git:https://github.com/amirmendelson/WeatherWebApp.git</url>
 		<connection>scm:git:https://github.com/amirmendelson/WeatherWebApp.git</connection>
 		<developerConnection>scm:git:https://github.com/amirmendelson/WeatherWebApp.git</developerConnection>  
-    <tag>HEAD</tag>
+    <tag>WeatherWebApp-1.0.21</tag>
   </scm>    
 
     <distributionManagement>
