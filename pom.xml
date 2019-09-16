@@ -5,7 +5,7 @@
     <groupId>com.amd</groupId>
 	<artifactId>WeatherWebApp</artifactId>
 	<packaging>war</packaging>
-    <version>1.0.23-SNAPSHOT</version>  
+    <version>1.0.25-SNAPSHOT</version>  
 	                  
 	<!-- 
 	<version>1.0.0</version>
@@ -109,20 +109,31 @@
 		<url>scm:git:https://github.com/amirmendelson/WeatherWebApp.git</url>
 		<connection>scm:git:https://github.com/amirmendelson/WeatherWebApp.git</connection>
 		<developerConnection>scm:git:https://github.com/amirmendelson/WeatherWebApp.git</developerConnection>  
-  </scm>    
+    </scm>    
 
+    <!--
     <distributionManagement>
         <snapshotRepository>
           <id>nexus-snapshots</id>
-         <!-- <url>http://172.18.47.241:8081/repository/maven-snapshots/</url> --> 
-          <url>172.17.222.81:8081/repository/maven-snapshots/</url>
+         <url>http://172.18.47.241:8081/repository/maven-snapshots/</url> 
         </snapshotRepository>
         <repository>
           <id>nexus-releases</id>
-          <!-- <url>http://172.18.47.241:8081/repository/maven-releases/</url> -->
-          <url>172.17.222.81:8081/repository/maven-releases/</url>
+          <url>http://172.18.47.241:8081/repository/maven-releases/</url> 
         </repository>
       </distributionManagement>
+     --> 
+    <distributionManagement>
+        <snapshotRepository>
+          <id>nexus-snapshots</id>
+         <url>http://10.0.75.1:8081/repository/maven-snapshots/</url> 
+        </snapshotRepository>
+        <repository>
+          <id>nexus-releases</id>
+          <url>http://10.0.75.1:8081/repository/maven-releases/</url> 
+        </repository>
+    </distributionManagement>
+
 
 
     
