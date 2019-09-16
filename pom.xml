@@ -123,7 +123,7 @@
           <url>http://172.18.47.241:8081/repository/maven-releases/</url> 
         </repository>
       </distributionManagement>
-     --> 
+     -->  
     <distributionManagement>
         <snapshotRepository>
           <id>nexus-snapshots</id>
