@@ -97,14 +97,14 @@
 	</dependencies>
 
     <!-- C:\docker_data\jenkins_home\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.6.1\conf\settings.xml --> 
-    <!--
+    <!--  prev config
     <scm>   
 		<url>scm:git:git@github.com:amirmendelson/WeatherWebApp.git</url>
 		<connection>scm:git:git@github.com:amirmendelson/WeatherWebApp.git</connection>
 		<developerConnection>scm:git:git@github.com:amirmendelson/WeatherWebApp.git</developerConnection>     
     </scm>    
     --> 
-
+ 
     <scm>   
 		<url>scm:git:https://github.com/amirmendelson/WeatherWebApp.git</url>
 		<connection>scm:git:https://github.com/amirmendelson/WeatherWebApp.git</connection>
