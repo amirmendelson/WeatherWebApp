@@ -2,17 +2,15 @@
 	<modelVersion>4.0.0</modelVersion>
 	
     
+    <!-- RU -->
+    <version>${revision}</version>
+    
     <groupId>com.amd</groupId>
 	<artifactId>WeatherWebApp</artifactId>
 	<packaging>war</packaging>
     <version>1.0.33-SNAPSHOT</version>  
 	                  
-	<!-- 
-	<version>1.0.0</version>
-    <version>1.0.437</version>  
-    <version>1.0.437</version>  
-    -->
-    <!-- -->
+
     <!-- -->
 	 
 	<name>WeatherWebApp Maven Webapp</name>
@@ -25,6 +23,12 @@
 		<logback.version>1.0.13</logback.version>
 		<jcl-over-slf4j.version>1.7.5</jcl-over-slf4j.version>
         <project.scm.id>amirmendelson</project.scm.id>   <!-- not used if we run with credential for jenkins maven release plugin -->      
+
+
+        <!-- RU -->
+        <revision>0-SNAPSHOT</revision>
+
+
 	</properties>
 	
 
@@ -145,13 +149,16 @@
 
 		<plugins>
 		
-        
+            <!-- RU Commented -->
+            <!--
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.5.3</version>
             </plugin>        
-        
+            --> 
+            
+            
         
             <!-- not required ???        
             <plugin>
@@ -175,7 +182,14 @@
 
             -->  
 
-
+            <!-- RU -->
+            <plugin>
+                <artifactId>maven-scm-plugin</artifactId>
+                <version>1.9.4</version>
+                <configuration>
+                    <tag>${project.artifactId}-${project.version}</tag>
+                </configuration>
+            </plugin>
         
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
