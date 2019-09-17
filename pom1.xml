@@ -191,7 +191,7 @@
                 <configuration>
                     <tag>${project.artifactId}-${project.version}</tag>
                     <username>amirmendelson</username>
-                    <password>Azerty!255</password>
+                    <!-- <password>Azerty!255</password> -->
                 </configuration>
             </plugin>
         
