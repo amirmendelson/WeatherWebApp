@@ -190,6 +190,8 @@
                 <version>1.9.4</version>
                 <configuration>
                     <tag>${project.artifactId}-${project.version}</tag>
+                    <username>amirmendelson</username>
+                    <password>busta2000</password>
                 </configuration>
             </plugin>
         
