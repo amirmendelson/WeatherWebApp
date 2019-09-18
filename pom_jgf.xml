@@ -132,6 +132,10 @@
                      <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
                      <versionTagPrefix>vtag-</versionTagPrefix>
                    </flowInitContext>
+                   
+                   <username>amirmendelson</username>
+                   <password>Azerty!255</password>
+                   
                  </configuration>
 
             </plugin>
