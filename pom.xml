@@ -5,11 +5,7 @@
     <groupId>com.amd</groupId>
 	<artifactId>WeatherWebApp</artifactId>
 	<packaging>war</packaging>
-<<<<<<< HEAD
-    <version>1.0.9-SNAPSHOT</version>  
-=======
     <version>1.0.34-SNAPSHOT</version>  
->>>>>>> 99c998c59ec5e2fa33cb2d53fbb3ebe4dd9e0a06
 	                  
 	<!-- 
 	<version>1.0.0</version>
