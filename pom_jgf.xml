@@ -119,9 +119,17 @@
 		<plugins>
 		
             <plugin>
+                <!--
                 <groupId>external.atlassian.jgitflow</groupId>
                 <artifactId>jgitflow-maven-plugin</artifactId>
                 <version>1.0-m5.1</version>
+                -->
+
+                <groupId>com.amashchenko.maven.plugin</groupId>
+                <artifactId>gitflow-maven-plugin</artifactId>
+                <version>1.13.0</version>
+
+
 
                 <configuration>
                   <flowInitContext>
@@ -132,6 +140,10 @@
                      <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
                      <versionTagPrefix>vtag-</versionTagPrefix>
                    </flowInitContext>
+                   
+                   <username>amirmendelson</username>
+                   <password>Azerty!255</password>
+                   
                  </configuration>
 
             </plugin>
