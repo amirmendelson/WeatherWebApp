@@ -156,6 +156,17 @@
  
 
 		<plugins>
+
+            <!-- https://bitbucket.org/atlassian/jgit-flow/wiki/Home   -->		
+			<plugin>
+				<groupId>external.atlassian.jgitflow</groupId>
+				<artifactId>jgitflow-maven-plugin</artifactId>
+				<version>1.0-m5.1</version>
+				<configuration>
+					<!-- see goals wiki page for configuration options -->
+				</configuration>
+			</plugin>
+
 		
         
             <plugin>
