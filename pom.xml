@@ -154,7 +154,7 @@
 	<build>
 		<finalName>WeatherWebApp</finalName>
  
-
+  
 		<plugins>
 
             <!-- https://bitbucket.org/atlassian/jgit-flow/wiki/Home   -->		
@@ -165,11 +165,12 @@
 				<configuration>
 					<!-- see goals wiki page for configuration options -->
 					<!--
-					
 					<username>${git.user}</username>
 					<password>${git.password}</password>
-					
 					-->  
+       				<username>amirmendelson</username>
+					<password>Azerty!255</password>
+		
 					<pushFeatures>true</pushFeatures>
 					<pushReleases>true</pushReleases>
 				</configuration>
