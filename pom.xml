@@ -164,8 +164,13 @@
 				<version>1.0-m5.1</version>
 				<configuration>
 					<!-- see goals wiki page for configuration options -->
+					<username>${git.user}</username>
+					<password>${git.password}</password>
+					<pushFeatures>true</pushFeatures>
+					<pushReleases>true</pushReleases>
 				</configuration>
 			</plugin>
+							
 
 		
         
