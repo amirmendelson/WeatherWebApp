@@ -10,7 +10,7 @@ import java.io.*;
 
 import org.json.*;
 
-// add comment line in order to test git flow - t2 
+// add comment line in order to test git flow - d1
 public class URLReader {
 	
     public static String read(String addr)  {
